@@ -1,0 +1,337 @@
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #FFF6E6;
+  min-width: 100%;
+  min-height: 10vh;
+  padding-right: 4rem;
+}
+nav ul .premio {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+}
+nav ul ul {
+  padding-right: 0;
+  width: 100%;
+}
+nav ul .premio {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+nav ul li {
+  margin-left: 1rem;
+  list-style: none;
+  color: #f0000c;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  nav ul {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+header {
+  background-color: #FFF6E6;
+  min-height: 80vh;
+  padding: 1rem 1rem 0 1rem;
+}
+header img {
+  width: 100%;
+  height: 80%;
+}
+header .mobile {
+  display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    padding: 0;
+    background-image: url(../../source/background/LandingPAM_mobile2-09.png);
+    background-position: cover;
+  }
+  header .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    padding: 0;
+    background-image: url(../../source/background/LandingPAM_mobile2-09.png);
+    background-position: cover;
+  }
+  header img {
+    height: 100%;
+  }
+  header .desktop {
+    display: none;
+  }
+}
+
+main {
+  background-color: #E9D9FC;
+}
+main .mainSection {
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+}
+main .mainSection .sponsor {
+  width: 30%;
+  height: 100%;
+  margin: 2rem 0 0 0;
+  padding: 2rem 0 0 4rem;
+}
+main .mainSection .sponsor img .imgSponsor {
+  width: 20%;
+  margin-top: 2rem;
+}
+main .mainSection .sponsor img .imgSponsor h5 {
+  color: #f0000c;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main .mainSection .sponsor {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main .mainSection .sponsor {
+    display: none;
+  }
+}
+main .form {
+  margin: 2rem 3rem 1rem 3rem;
+  padding: 2rem 3rem 2rem 3rem;
+  width: 60%;
+}
+main .form h1 {
+  width: 60%;
+  font-size: 2rem;
+}
+main .form h4 {
+  width: 60%;
+}
+main .form h6 {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  color: #f0000c;
+  border: 2px solid red;
+  margin: 2rem 0 2rem 0;
+  width: 40%;
+}
+main .form .aboutUs * {
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main .form {
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  main .form h1 {
+    width: 100%;
+    font-size: 2rem;
+    color: #f0000c;
+  }
+  main .form h4 {
+    width: 100%;
+    font-size: 1.5rem;
+    color: red;
+  }
+  main .form h6 {
+    font-size: 1rem;
+    padding: 0.3rem;
+    color: #f0000c;
+    width: 40%;
+  }
+  main .form .boxField {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main .form {
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  main .form h1 {
+    width: 100%;
+    font-size: 2rem;
+    color: #f0000c;
+  }
+  main .form h4 {
+    width: 100%;
+    font-size: 1.5rem;
+    color: red;
+  }
+  main .form h6 {
+    font-size: 1rem;
+    padding: 0.3rem;
+    color: #f0000c;
+    width: 40%;
+  }
+  main .form .boxField {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 890px) {
+  main .form h6 {
+    width: 60%;
+  }
+}
+main .access {
+  margin: 1rem 1rem 0 0;
+  padding: 1rem 1rem 0 0;
+}
+main .access .sendForm {
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: #f0000c;
+  background-color: #ceb6b7;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  main .access {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  main .access .sendForm {
+    margin-top: 1.5rem;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #f0000c;
+    background-color: #ceb6b7;
+    font-weight: 900;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main .access {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  main .access .sendForm {
+    margin-top: 1.5rem;
+    width: 60%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #f0000c;
+    background-color: #ceb6b7;
+    font-weight: 900;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 890px) {
+  main .access {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  main .access .sendForm {
+    margin-top: 1.5rem;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #f0000c;
+    background-color: #ceb6b7;
+    font-weight: 900;
+  }
+}
+
+footer {
+  background-color: rgb(234, 230, 230);
+}
+footer section img {
+  width: 30%;
+}
+
+.bgImag {
+  background-color: #FFF6E6;
+  padding: 0 1rem 0 1rem;
+}
+.bgImag img {
+  width: 100%;
+  height: 80%;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: #FFF6E6;
+  font-size: 1.2rem;
+}
+.details .questions {
+  color: #f0000c;
+  width: 30%;
+  height: 100%;
+  margin: 4rem;
+  padding: 4rem;
+}
+.details .answer {
+  margin: 2rem 0 2rem 0;
+  padding: 2rem;
+  width: 50%;
+  background-color: #FFF6E6;
+}
+.details .answer #headingOne:active {
+  background-color: #f0000c !important;
+}
+.details .answer button {
+  font-size: 1.4rem;
+  background-color: #FFF6E6 !important;
+  color: #f0000c;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .details {
+    flex-direction: column;
+  }
+  .details .questions {
+    font-size: 0.5rem;
+    margin: auto;
+    padding: 1rem;
+  }
+  .details .answer {
+    margin: auto;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .details {
+    flex-direction: column;
+  }
+  .details .questions {
+    font-size: 1rem;
+    margin: auto;
+    padding: 1rem;
+  }
+  .details .answer {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

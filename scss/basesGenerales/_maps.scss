@@ -1,0 +1,12 @@
+@mixin box($font-size, $padding, $color){
+    font-size: $font-size;
+    padding: $padding;
+    color: $color;
+}
+
+@mixin section ($width, $height, $margin, $padding){
+    width: $width;
+    height: $height;
+    margin: $margin;
+    padding: $padding;
+}
